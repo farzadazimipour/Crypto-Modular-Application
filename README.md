@@ -18,3 +18,5 @@ graph LR
   :app:composemobile --> :core:network
   :feature:compose-crypto --> :core:domain
 ```
+
+[](https://github.com/user-attachments/assets/60d5d0d1-166a-4b1a-ad32-2dcae2b556cc)
