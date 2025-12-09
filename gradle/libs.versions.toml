@@ -23,6 +23,7 @@ hiltExt = "1.1.0"
 okhttp = "4.12.0"
 retrofit = "2.9.0"
 gson = "2.10.1"
+modulegraph = "0.10.1"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "androidxCore" }
@@ -72,6 +73,7 @@ kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
 androidLibrary = { id = "com.android.library", version.ref = "androidGradlePlugin" }
 ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
 hilt = { id = "com.google.dagger.hilt.android", version.ref = "hilt" }
+modulegraph = { id = "dev.iurysouza.modulegraph", version.ref = "modulegraph" }
 
 # Plugins defined by this project
 com-example-android-application = { id = "com.example.android.application", version = "unspecified" }
