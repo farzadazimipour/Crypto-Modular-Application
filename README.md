@@ -12,6 +12,43 @@ This project serves as a reference implementation for:
 - **Type-safe project accessors** for module dependencies
 - **Scalable project structure** suitable for large teams
 
+## 🛠️ Tech Stack
+
+### Core Technologies
+- **Language:** Kotlin
+- **Architecture:** Clean Architecture + MVVM
+- **Modularization:** Multi-module with convention plugins
+- **Dependency Injection:** Hilt
+- **Build System:** Gradle with Kotlin DSL
+
+### UI Technologies
+- **Modern UI:** Jetpack Compose
+- **Traditional UI:** XML Views
+- **Navigation:** Compose Navigation
+- **Material Design:** Material 3 Components
+
+### Networking & Data
+- **HTTP Client:** Retrofit + OkHttp
+- **JSON Parsing:** Gson
+- **Reactive Programming:** Coroutines + Flow
+- **Local Storage:** Room Database (when implemented)
+
+### Development Tools
+- **Code Generation:** KSP (Kotlin Symbol Processing)
+- **Version Catalog:** Gradle Version Catalogs
+- **Convention Plugins:** Custom Gradle plugins
+- **Type Safety:** Type-safe project accessors
+
+### Testing
+- **Unit Testing:** JUnit
+- **Android Testing:** Espresso
+- **Mocking:** Mockito/MockK
+
+### Quality & Performance
+- **Static Analysis:** Detekt/Lint
+- **Build Optimization:** Gradle build cache
+- **Module Graph:** Dependency visualization
+
 ## 🏗️ Architecture
 
 The application follows **Clean Architecture** principles with three main layers:
