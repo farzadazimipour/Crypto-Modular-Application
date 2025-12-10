@@ -2,19 +2,6 @@
 
 A sample Android application demonstrating **Clean Architecture** and **Modularization** best practices. This project showcases how to structure a scalable, maintainable Android app using modern development patterns and technologies.
 
-## 📋 Table of Contents
-
-- [Overview](#overview)
-- [Architecture](#architecture)
-- [Module Structure](#module-structure)
-- [Module Graph](#module-graph)
-- [Tech Stack](#tech-stack)
-- [Convention Plugins](#convention-plugins)
-- [Getting Started](#getting-started)
-- [Module Details](#module-details)
-- [Dependency Management](#dependency-management)
-- [Best Practices](#best-practices)
-
 ## 🎯 Overview
 
 This project serves as a reference implementation for:
@@ -87,40 +74,6 @@ graph LR
 ```bash
 ./gradlew createModuleGraph
 ```
-
-## 🛠️ Tech Stack
-
-### Core Technologies
-- **Kotlin** 1.9.21
-- **Gradle** 8.2+ with Kotlin DSL
-- **Android Gradle Plugin** 8.2.2
-
-### Android Libraries
-- **Jetpack Compose** (BOM 2023.10.01)
-- **Compose Compiler** 1.5.6
-- **AndroidX Core KTX** 1.12.0
-- **Lifecycle & ViewModel** 2.6.2
-- **Activity Compose** 1.8.1
-
-### Dependency Injection
-- **Hilt** 2.48.1
-- **Hilt Navigation Compose** 1.1.0
-
-### Networking
-- **Retrofit** 2.9.0
-- **OkHttp** 4.12.0
-- **Gson** 2.10.1
-
-### Build & Tooling
-- **KSP** 1.9.21-1.0.16
-- **Module Graph Plugin** 0.10.1
-- **Desugar JDK Libs** 2.0.4
-
-### Testing
-- **JUnit** 4.13.2
-- **AndroidX Test** 1.1.5
-- **Espresso** 3.5.1
-- **Work Testing** 2.9.0
 
 ## 🔌 Convention Plugins
 
