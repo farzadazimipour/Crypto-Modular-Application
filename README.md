@@ -271,26 +271,6 @@ Core modules are reusable across different app implementations (`composemobile`,
 - Consistent configuration across modules
 - Easy to add new modules
 
-## 🔧 Configuration
-
-### Gradle Properties
-
-Key configurations in `gradle.properties`:
-
-```properties
-org.gradle.jvmargs=-Xmx2048m -Dfile.encoding=UTF-8
-android.useAndroidX=true
-kotlin.code.style=official
-android.nonTransitiveRClass=true
-```
-
-### Build Configuration
-
-- **Min SDK:** Configured in convention plugins
-- **Target SDK:** Latest stable
-- **Compile SDK:** Latest stable
-- **JVM Target:** 17
-
 ## 📄 License
 
 This is a sample project for educational purposes.
