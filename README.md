@@ -146,7 +146,7 @@ The `build-logic` folder contains custom convention plugins that enforce consist
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/farzadazimipour/Crypto-Modular-Application.git
    cd Crypto-Modular-Application
    ```
 
