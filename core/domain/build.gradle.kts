@@ -1,14 +1,12 @@
 plugins {
-    alias(libs.plugins.com.example.android.library)
-    alias(libs.plugins.ksp)
-}
-
-android {
-    namespace = "com.example.domain"
+    alias(libs.plugins.com.example.jvm.library)
+    alias(libs.plugins.com.example.jvm.hilt)
 }
 
 dependencies {
-    implementation(libs.hilt.android)
+    implementation(libs.kotlinx.coroutines.android)
 
-    ksp(libs.hilt.compiler)
+    testImplementation(libs.junit)
+    testImplementation(libs.kotlinx.coroutines.test)
+    testImplementation(libs.mockk)
 }

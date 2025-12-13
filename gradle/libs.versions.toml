@@ -10,6 +10,7 @@ androidxActivity = "1.8.1"
 androidxComposeBom = "2023.10.01"
 androidxComposeCompiler = "1.5.6"
 androidxHiltNavigationCompose = "1.1.0"
+mockk = "1.13.8"
 junit = "4.13.2"
 androidxJunit = "1.1.5"
 androidxEspresso = "3.5.1"
@@ -35,6 +36,7 @@ androidx-compose-ui = { group = "androidx.compose.ui", name = "ui", version = "u
 androidx-compose-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics", version = "unspecified" }
 androidx-compose-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview", version = "unspecified" }
 androidx-compose-material3 = { group = "androidx.compose.material3", name = "material3", version = "unspecified" }
+mockk = { group = "io.mockk", name = "mockk", version.ref = "mockk" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "androidxJunit" }
 androidx-test-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "androidxEspresso" }
@@ -44,6 +46,7 @@ androidx-compose-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-
 androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "androidxAppcompat" }
 com-google-android-material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "androidxConstraintlayout" }
+hilt-core = { group = "com.google.dagger", name = "hilt-core", version.ref = "hilt" }
 hilt-android = { group = "com.google.dagger", name = "hilt-android", version.ref = "hilt" }
 hilt-android-testing = { group = "com.google.dagger", name = "hilt-android-testing", version.ref = "hilt" }
 hilt-compiler = { group = "com.google.dagger", name = "hilt-android-compiler", version.ref = "hilt" }
@@ -54,6 +57,7 @@ androidx-hilt-navigation-compose = { group = "androidx.hilt", name = "hilt-navig
 androidx-lifecycle-runtimeCompose = { group = "androidx.lifecycle", name = "lifecycle-runtime-compose", version.ref = "androidxLifecycle" }
 androidx-lifecycle-viewModelCompose = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-compose", version.ref = "androidxLifecycle" }
 kotlinx-coroutines-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "kotlinxCoroutines" }
+kotlinx-coroutines-test = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-test", version.ref = "kotlinxCoroutines" }
 com-squareup-retrofit2 = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
 com-squareup-retrofit2-converter-gson = { group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "retrofit" }
 okhttp-logging = { group = "com.squareup.okhttp3", name = "logging-interceptor", version.ref = "okhttp" }
@@ -83,3 +87,5 @@ com-example-android-library = { id = "com.example.android.library", version = "u
 com-example-android-library-compose = { id = "com.example.android.library.compose", version = "unspecified" }
 com-example-android-feature-compose = { id = "com.example.android.feature.compose", version = "unspecified" }
 com-example-android-application-flavors = { id = "com.example.android.application.flavors", version = "unspecified" }
+com-example-jvm-library = { id = "com.example.jvm.library", version = "unspecified" }
+com-example-jvm-hilt = { id = "com.example.jvm.hilt", version = "unspecified" }

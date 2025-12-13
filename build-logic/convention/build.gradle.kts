@@ -55,5 +55,13 @@ gradlePlugin {
             id = "com.example.android.feature.compose"
             implementationClass = "AndroidFeatureComposeConventionPlugin"
         }
+        register("jvmLibrary") {
+            id = "com.example.jvm.library"
+            implementationClass = "JvmLibraryConventionPlugin"
+        }
+        register("jvmHilt") {
+            id = "com.example.jvm.hilt"
+            implementationClass = "JvmHiltConventionPlugin"
+        }
     }
 }
