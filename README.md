@@ -323,5 +323,3 @@ For questions or suggestions about the architecture patterns used in this projec
 ---
 
 **Note:** This is a sample application demonstrating modularization and clean architecture patterns. It's designed to be a learning resource and starting point for scalable Android applications.
-
-[](https://github.com/user-attachments/assets/60d5d0d1-166a-4b1a-ad32-2dcae2b556cc)
